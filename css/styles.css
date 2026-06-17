@@ -231,8 +231,6 @@ footer{
     text-align: center;
 }
 
-<<<<<<< Updated upstream
-=======
 /* ⋆˚࿔ Productos */
 .grid-container {
   display: grid;
@@ -305,7 +303,6 @@ form{
     transition: 0.4s;
 }
 
->>>>>>> Stashed changes
 @media screen and (max-width: 950px){
     body{
         width: 90%;
