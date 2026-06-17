@@ -38,6 +38,10 @@ hr{
 
 }
 
+p{
+    font-family: "Yomogi", cursive;
+}
+
 .hr-screen{
     visibility: hidden;
     width: 90%;
@@ -147,13 +151,6 @@ main{
     color: aliceblue;
 
     transition: 0.4s;
-
-    /*filter: brightness(80%);
-    transition: 0.3s;
-    color: aliceblue;
-    h2{
-        z-index: 999;
-    }*/
 }
 
 .info{
@@ -206,6 +203,25 @@ main{
     transition: 0.4s;
 }
 
+.reseñas{
+    padding: 15px;
+    color: white;
+}
+
+.comentario{
+    padding: 10px;
+    p{
+        font-family: "Yomogi", cursive;
+        font-size: 20px;
+    }
+}
+
+.comentario:hover{
+    background-color: #F78CBD;
+    transition: 0.4s;
+    border-radius: 20px;
+}
+
 footer{
     background-color: #F78CBD;
     color: white;
@@ -251,6 +267,64 @@ footer{
     img{
         border-radius: 10px;
     }
+}
+
+/*Contacto*/
+.contacto{
+    padding: 1.5rem;
+}
+
+label{
+    font-family: "Yomogi", cursive;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border-radius: 10px;
+    background-color: plum;
+    height: 35px;
+    border: purple 1px solid;
+    margin-left: 5px;
+}
+
+textarea{
+    border-radius: 10px;
+    background-color: plum;
+    height: 50px;
+    width: 200px;
+    margin-left: 5px;
+
+    border: purple 1px solid;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+#boton-contacto{
+    background-color: purple;
+    color: white;
+    border: 0;
+
+    padding: 15px;
+    margin-right: 10px;
+    font-family: "Yomogi", cursive;
+    border-radius: 10px;
+    
+}
+
+#boton-contacto:hover{
+    background-color: white;
+    color: #FBABCF;
+
+    transition: 0.4s;
+}
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
 }
 
 .grid-item img {
