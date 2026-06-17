@@ -123,8 +123,7 @@ h2{
 }
 
 main{
-    background-color: #e2abfb;
-
+    background-color: #FBABCF;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -237,6 +236,10 @@ footer{
 }
 
 /* ⋆˚࿔ Productos */
+.productos{
+    background-color: #FBABCF;
+}
+
 .grid-container {
   display: grid;
   
@@ -247,11 +250,23 @@ footer{
 }
 
 .grid-item {
-  background-color: plum;
-  color: white;
-  padding: 30px;
-  text-align: center;
-  font-size: 24px;
+    margin-top: 15px;
+    background-color: plum;
+    color: white;
+    padding: 10px;
+    padding-bottom: 45px;
+    text-align: center;
+    font-size: 24px;
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+    font-family: "Yomogi", cursive;
+    p{
+        margin: 0;
+    }
+    img{
+        border-radius: 10px;
+    }
 }
 
 /*Contacto*/
