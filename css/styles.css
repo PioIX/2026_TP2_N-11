@@ -266,6 +266,9 @@ footer{
     }
     img{
         border-radius: 10px;
+        height: 400px;
+        width: 300px;
+        object-fit: cover; 
     }
 }
 
@@ -319,12 +322,7 @@ form{
 #boton-contacto:hover{
     background-color: white;
     color: #FBABCF;
-
     transition: 0.4s;
-}
-  height: 400px;
-  width: 300px;
-  overflow: hidden;
 }
 
 .grid-item img {
