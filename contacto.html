@@ -16,29 +16,30 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
-    <a id="scroll" href="#portada"></a>
-    <header>
+    <a id="scroll" href="#header"></a>
+    <header id="header">
         <div style="display: flex; align-items: center;">
             <img id="logo" src="img/logo.png">
             <h2>Hola</h2>
         </div>
         <nav>
+            <a class="nav-boton" href="index.html"><b>Inicio</b></a>
             <a class="nav-boton" href="productos.html"><b>Productos</b></a>
             <a class="nav-boton" href="reseñas.html"><b>Reseñas</b></a>
             <a class="nav-boton" href="contacto.html"><b>Contacto</b></a>
         </nav>
     </header>
     <main>
-        <h1>Contacto</h1>
+        <section class="contacto">
+        <h1 style="color: white;">Contacto</h1>
         <p>En caso de tener cualquier duda puede contactarnos completando en siguiente formulario.</p>
         <form action="https://formspree.io/f/xwvzwgqk" method="POST">
             <label>
                 Tu email:
-                <input type="email" name="email">
+                <input type="email" name="email" placeholder="pinkypie@hotmail.com">
             </label>
             <label>
                 Tu mensaje:
@@ -48,12 +49,13 @@
                 Tu nombre:
                 <textarea name="name"></textarea>
             </label>
-            <button type="submit">Send</button>
+            <button type="submit" id="boton-contacto">Send</button>
         </form>
+        <section>
     </main>
     <footer>
-        <!-- COPIAR lo de Ani y Vicky -->
+        <p>Copyright 1996</p>
     </footer>
 </body>
-<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </html>
