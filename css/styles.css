@@ -1,3 +1,8 @@
+::selection {
+  color: white;
+  background: purple;
+}
+
 .yomogi-regular {
   font-family: "Yomogi", cursive;
   font-weight: 400;
@@ -28,7 +33,7 @@ body{
 }
 
 hr{
-    border: #F653A6 3px dashed;
+    border: purple 3px dashed;
     border-bottom: 0;
 
 }
@@ -118,14 +123,14 @@ h2{
 }
 
 main{
-    background-color: #FBABCF;
+    background-color: #e2abfb;
 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 
 #portada{
-    background-image: url('/img/img-test.jpg');
+    background-image: url('/img/baner.jpg');
     height: 35rem;
 
     display: flex;
@@ -135,14 +140,14 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 
-    color:#F653A6;
+    color:rgb(243, 175, 50);
 }
 
 #portada:hover{
 
     background-image: 
         linear-gradient(rgba(160, 0, 96, 0.2), rgba(160, 0, 96, 0.2)),
-        url('/img/img-test.jpg');
+        url('/img/baner.jpg');
     background-size: cover;
     color: aliceblue;
 
@@ -302,6 +307,17 @@ form{
 
     transition: 0.4s;
 }
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops while maintaining aspect ratio */
+    object-position: center; /* Center the crop */
+  }
 
 @media screen and (max-width: 950px){
     body{
